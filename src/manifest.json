@@ -2,13 +2,8 @@
     "name": "KTranslator",
     "version": "1.0",
     "description": "Simple translator",
-    "permissions": ["declarativeContent", "storage"],
-    "background": {
-      "scripts": ["background.js"],
-      "persistent": false
+    "browser_action": {
+      "default_popup": "index.html"
     },
-    "page_action": {
-        "default_popup": "index.html"
-      },
     "manifest_version": 2
 }

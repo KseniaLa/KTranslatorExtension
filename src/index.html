@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
 </head>
 <body>
-    <input id="inputField" type="text"/>
-    <button id="translateButton">Translate!</button>
+	<div class="app-box">
+		<input id="inputField" class="text-input" type="text"/>
+		<div class="button-box">
+				<button id="translateButton" class="button-main">Translate!</button>
+				<button id="clearButton" class="button-clear">Clear</button>
+		</div>
+		<p id="errorArea" class="error" hidden></p>
+		<p id="resultArea" class="result" hidden></p>
+	</div>
 </body>
+	<script type="text/javascript" src="main.js"></script>
 </html>
